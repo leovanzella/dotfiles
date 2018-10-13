@@ -1,0 +1,14 @@
+{
+    "workbench.colorTheme": "Spacegray Ocean Dark",
+    "editor.fontFamily": "menlo",
+    "editor.fontSize": 12,
+    "editor.fontWeight": "100",
+    "breadcrumbs.enabled": true,
+    "editor.renderControlCharacters": true,
+    "editor.renderWhitespace": "none",
+    "files.trimTrailingWhitespace": true,
+    "python.linting.pylintEnabled": false,
+    "python.linting.pep8Enabled": true,
+    "python.linting.enabled": true,
+    "python.pythonPath": "/usr/local/bin/python3"
+}
