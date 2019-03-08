@@ -56,5 +56,13 @@
         // "scrollbarSlider.activeBackground": "#77D4CB",
         // "scrollbarSlider.hoverBackground": "#8CE6DA",
         // "badge.background": "#81CA91"
-    }
+    },
+    "python.pythonPath": "/usr/bin/python",
+    "python.linting.pylintEnabled": false,
+    "python.linting.enabled": true,
+    "python.linting.flake8Enabled": true,
+    "python.linting.pep8Enabled": false,
+    "python.linting.flake8Args": [
+        "--max-line-length", "120"
+    ],
 }
