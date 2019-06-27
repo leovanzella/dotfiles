@@ -39,7 +39,6 @@
         "--enable=all",
     ],
     "editor.lineHeight": 15,
-    "workbench.iconTheme": "vscode-icons",
     // "python.linting.pylintArgs": ["--load-plugins", "pylint_django"],
     // "python.linting.pep8Args": ["--ignore=E303", "--ignore=E501"]
     "workbench.colorCustomizations": {
@@ -72,4 +71,10 @@
     "editor.suggestSelection": "first",
     "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
     "workbench.colorTheme": "Spacegray Ocean Dark",
+    "[xml]": {
+        "editor.defaultFormatter": "mikeburgh.xml-format"
+    },
+    "editor.largeFileOptimizations": false,
+    "python.venvPath": "/Users/leovanzella/Projects",
+    "terminal.integrated.rendererType": "dom"
 }
