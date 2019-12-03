@@ -1,14 +1,82 @@
 {
-    "workbench.colorTheme": "Spacegray Ocean Dark",
-    "editor.fontFamily": "menlo",
-    "editor.fontSize": 12,
-    "editor.fontWeight": "100",
+    "editor.formatOnSave": false,
+    "explorer.confirmDragAndDrop": false,
+    "files.exclude": {
+        "**/__pycache__": true,
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true,
+        "**/*.pyc": true
+    },
+    "gitlens.advanced.messages": {
+        "suppressShowKeyBindingsNotice": false
+    },
+    "window.zoomLevel": 0,
+    "editor.fontFamily": "Menlo",
+    "files.trimTrailingWhitespace": true,
+    "workbench.editor.enablePreview": true,
     "breadcrumbs.enabled": true,
+    "explorer.autoReveal": false,
     "editor.renderControlCharacters": true,
     "editor.renderWhitespace": "none",
-    "files.trimTrailingWhitespace": true,
-    "python.linting.pylintEnabled": false,
-    "python.linting.pep8Enabled": true,
+    "explorer.confirmDelete": false,
+    "editor.accessibilitySupport": "off",
+    "editor.showUnused": true,
+    "files.insertFinalNewline": false,
+    "editor.lineHeight": 15,
+    "workbench.colorCustomizations": {
+        "editor.background": "#2B303B",
+        "activityBar.background": "#2B303B",
+        // "list.inactiveSelectionBackground": "#C5DEF0",
+        // "sideBar.background": "#F8F6F6",
+        // "sideBar.foreground": "#000000",
+        // "editor.foreground": "#000000",
+        // "sideBarSectionHeader.background": "#CAC9C9",
+        // "sideBarSectionHeader.foreground": "#000000",
+        // "activityBar.border": "#FFFF00",
+        // "statusBar.background": "#102F97",
+        // "scrollbarSlider.activeBackground": "#77D4CB",
+        // "scrollbarSlider.hoverBackground": "#8CE6DA",
+        // "badge.background": "#81CA91",
+        // "editorGroupHeader.tabsBackground": "#2B303B",
+        // "tab.activeBackground": "#2B303B",
+        // "tab.inactiveBackground": "#2B303B",
+    },
     "python.linting.enabled": true,
-    "python.pythonPath": "/usr/local/bin/python3"
+    "python.linting.flake8Enabled": true,
+    "python.linting.flake8Args": [
+        "--enable=all",
+        "--max-line-length=110",
+        "--ignore=E731",
+        // "--ignore=E402,F841,F401,E302,E305",
+    ],
+    // "python.envFile": "${workspaceFolder}../../.venvs",
+    "python.envFile": "${workspaceRoot}/.env",
+    "python.venvPath": "/Users/leonardo.vanzella/Projetos/.venvs/",
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "workbench.colorTheme": "Spacegray Ocean Dark",
+    "[xml]": {
+        "editor.defaultFormatter": "Cameron.vscode-pytest"
+    },
+    "editor.largeFileOptimizations": false,
+    "terminal.integrated.rendererType": "dom",
+    "yaml.schemas": {
+        "file:///Users/leonardo.vanzella/.vscode/extensions/atlassian.atlascode-2.1.1/resources/schemas/pipelines-schema.json": "bitbucket-pipelines.yml"
+    },
+    "atlascode.jira.workingSite": {
+        "baseUrlSuffix": "atlassian.net"
+    },
+    "kite.showWelcomeNotificationOnStartup": false,
+    "diffEditor.ignoreTrimWhitespace": false,
+    "remote.SSH.configFile": "~/.ssh/sandbox.pem",
+    "terminal.integrated.shell.osx": "/bin/zsh",
+    "python.jediEnabled": false,
+    "atlascode.jira.workingProject": {
+        "id": "10033",
+        "name": "BUGS 2.0",
+        "key": "B20"
+    },
 }
