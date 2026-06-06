@@ -1,6 +1,5 @@
 {
     "window.commandCenter": true,
-    "catppuccin-noctis-icons.hidesExplorerArrows": false,
     "files.exclude": {
         "**/__pycache__": true,
         "**/.pytest_cache": true,
@@ -14,7 +13,7 @@
         "**/.DS_Store": true,
         "**/*.pyc": true,
         "**/node_modules": true,
-        "**/.venv/": true,
+        "**/.venv/": true
     },
     "search.exclude": {
         "**/bower_components": true,
@@ -32,7 +31,29 @@
         "**/*.pyc": true,
         "**/node_modules": true,
         "**/.venv/": true,
-
+        "**/.mypy_cache": true,
+        "**/.ruff_cache": true,
+        "**/htmlcov": true,
+        "static/": true,
+        "media_root/": true,
+        "logs/": true,
+        "frontend/dist/": true,
+        "storybook/storybook-static/": true
+    },
+    "files.watcherExclude": {
+        "**/.git/objects/**": true,
+        "**/.git/subtree-cache/**": true,
+        "**/node_modules/**": true,
+        "**/.venv/**": true,
+        "**/static/**": true,
+        "**/media_root/**": true,
+        "**/logs/**": true,
+        "**/htmlcov/**": true,
+        "**/__pycache__/**": true,
+        "**/.mypy_cache/**": true,
+        "**/.pytest_cache/**": true,
+        "**/.ruff_cache/**": true,
+        "**/frontend/dist/**": true
     },
     "diffEditor.useInlineViewWhenSpaceIsLimited": false,
     "terminal.integrated.scrollback": 100000,
@@ -62,8 +83,19 @@
     "claudeCode.preferredLocation": "panel",
     "merge-conflict.decorators.enabled": true,
     "merge-conflict.codeLens.enabled": true,
-    "workbench.commandPalette.experimental.suggestCommands": true,
-    "terminal.integrated.suggest.enabled": true,
-    "emmet.showSuggestionsAsSnippets": true,
-    "javascript.suggest.completeFunctionCalls": true,
+    "workbench.startupEditor": "welcomePage",
+    "editor.minimap.enabled": true,
+    "workbench.iconTheme": "vscode-jetbrains-icon-theme",
+    "window.titleBarStyle": "custom",
+    "gitlens.currentLine.enabled": true,
+    "claudeCode.selectedModel": "opus[1m]",
+    "containers.containerClient": "com.microsoft.visualstudio.containers.podman",
+    "containers.orchestratorClient": "com.microsoft.visualstudio.orchestrators.podmancompose",
+    "githubPullRequests.pullBranch": "never",
+    "window.autoDetectColorScheme": false,
+    "[json]": {
+        "editor.tabSize": 4,
+        "editor.insertSpaces": true,
+        "editor.detectIndentation": false
+    }
 }
