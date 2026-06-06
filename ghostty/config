@@ -1,0 +1,17 @@
+# Font
+font-family = JetBrains Mono
+font-size = 10
+
+# Colors
+theme = SpaceGray Bright
+theme = Nord
+
+
+# Splits
+unfocused-split-opacity = 0.85
+split-divider-color = #3e4451
+
+# Working directory
+working-directory = ~/projects
+
+background-opacity = 0.9
