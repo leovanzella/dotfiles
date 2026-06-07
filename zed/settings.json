@@ -1,0 +1,79 @@
+// Zed settings
+//
+// For information on how to configure Zed, see the Zed
+// documentation: https://zed.dev/docs/configuring-zed
+//
+// To see all of Zed's default settings without changing your
+// custom settings, run `zed: open default settings` from the
+// command palette (cmd-shift-p / ctrl-shift-p)
+{
+  "search": {
+    "include_ignored": true
+  },
+  "buffer_font_weight": 400.0,
+  "format_on_save": "off",
+  "session": {
+    "trust_all_worktrees": true
+  },
+  "preview_tabs": {
+    "enabled": false
+  },
+  "minimap": {
+    "show": "always"
+  },
+  "base_keymap": "VSCode",
+  "diff_view_style": "split",
+  "icon_theme": {
+    "mode": "dark",
+    "light": "Zed (Default)",
+    "dark": "Catppuccin Frappé"
+  },
+  "project_panel": {
+    "dock": "left"
+  },
+  "outline_panel": {
+    "dock": "left"
+  },
+  "collaboration_panel": {
+    "dock": "left"
+  },
+  "git_panel": {
+    "tree_view": true,
+    "dock": "left"
+  },
+  "theme": {
+    "mode": "dark",
+    "light": "One Light",
+    "dark": "Spacegray Ocean"
+  },
+  "agent": {
+    "dock": "right",
+    "play_sound_when_agent_done": "always",
+  },
+  // "icon_theme": "Material Icon Theme",
+  "vim_mode": true,
+  "ui_font_size": 15,
+  "buffer_font_family": "Consolas",
+  "buffer_font_size": 11.0,
+  "terminal": {
+    "max_scroll_history_lines": 100000,
+    "font_family": "Consolas",
+    "font_size": 11.0,
+    "env": {
+      "EDITOR": "zed --wait",
+    },
+  },
+  "show_completions_on_input": true,
+  "file_scan_exclusions": [
+    ".claude",
+    ".cursor",
+    ".git",
+    ".pytest_cache",
+    ".ruff_cache",
+    ".venv",
+    ".vscode",
+    ".zed",
+    "__pycache__",
+    "node_modules",
+  ]
+}
