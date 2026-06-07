@@ -1,3 +1,4 @@
+
 // Zed settings
 //
 // For information on how to configure Zed, see the Zed
@@ -7,9 +8,6 @@
 // custom settings, run `zed: open default settings` from the
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
-  "search": {
-    "include_ignored": true
-  },
   "buffer_font_weight": 400.0,
   "format_on_save": "off",
   "session": {
@@ -48,7 +46,7 @@
   },
   "agent": {
     "dock": "right",
-    "play_sound_when_agent_done": "always",
+    "play_sound_when_agent_done": true,
   },
   // "icon_theme": "Material Icon Theme",
   "vim_mode": true,
@@ -63,17 +61,4 @@
       "EDITOR": "zed --wait",
     },
   },
-  "show_completions_on_input": true,
-  "file_scan_exclusions": [
-    ".claude",
-    ".cursor",
-    ".git",
-    ".pytest_cache",
-    ".ruff_cache",
-    ".venv",
-    ".vscode",
-    ".zed",
-    "__pycache__",
-    "node_modules",
-  ]
 }
