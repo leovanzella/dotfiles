@@ -30,18 +30,22 @@
     "dark": "Catppuccin Frappé"
   },
   "project_panel": {
+<<<<<<< HEAD
     "sort_order": "default",
     "hide_root": false,
     "git_status_indicator": true,
     "bold_folder_labels": false,
     "indent_size": 20.0,
     "entry_spacing": "comfortable",
+=======
+>>>>>>> master
     "dock": "left"
   },
   "outline_panel": {
     "dock": "left"
   },
   "collaboration_panel": {
+<<<<<<< HEAD
     "button": false,
     "dock": "left"
   },
@@ -58,6 +62,11 @@
     "status_style": "icon",
     "default_width": 360.0,
     "show_count_badge": true,
+=======
+    "dock": "left"
+  },
+  "git_panel": {
+>>>>>>> master
     "tree_view": true,
     "dock": "left"
   },
@@ -67,8 +76,11 @@
     "dark": "Spacegray Ocean"
   },
   "agent": {
+<<<<<<< HEAD
     "flexible": true,
     "button": true,
+=======
+>>>>>>> master
     "dock": "right",
     "play_sound_when_agent_done": "always",
   },
@@ -76,6 +88,7 @@
   "vim_mode": true,
   "ui_font_size": 15,
   "buffer_font_family": "Consolas",
+<<<<<<< HEAD
   "buffer_font_size": 12.0,
   "terminal": {
     "shell": {
@@ -84,6 +97,12 @@
     "show_count_badge": true,
     "max_scroll_history_lines": 100000,
     "font_family": "JetBrains Mono",
+=======
+  "buffer_font_size": 11.0,
+  "terminal": {
+    "max_scroll_history_lines": 100000,
+    "font_family": "Consolas",
+>>>>>>> master
     "font_size": 11.0,
     "env": {
       "EDITOR": "zed --wait",
@@ -98,8 +117,14 @@
     ".ruff_cache",
     ".venv",
     ".vscode",
+<<<<<<< HEAD
     "__pycache__",
     "node_modules",
     ".DS_Store",
+=======
+    ".zed",
+    "__pycache__",
+    "node_modules",
+>>>>>>> master
   ]
 }
