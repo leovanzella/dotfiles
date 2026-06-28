@@ -14,4 +14,7 @@ split-divider-color = #3e4451
 # Working directory
 working-directory = ~/projects
 
+
 background-opacity = 0.9
+
+shell-integration = zsh
