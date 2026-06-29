@@ -1,0 +1,21 @@
+[
+  {
+    "label": "Python: Django",
+    "adapter": "Debugpy",
+    "request": "launch",
+    "program": "manage.py",
+    "args": ["runserver"],
+    "django": true,
+    "terminal": "integrated"
+  },
+  {
+    "label": "pytest",
+    "adapter": "Debugpy",
+    "request": "launch",
+    "module": "pytest",
+    "args": [
+      "tests/"
+    ],
+    "console": "integratedTerminal"
+  }
+]
